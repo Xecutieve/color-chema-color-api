@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="container">
+            <div id="selection-bar">
+                <input type="color" id="selected-color">
+                <select name="color-selection" id="color-selection">
+                    <option value="monochrome" id="monochrome" name="monochrome">Monochrome</option>
+                    <option value="monochrome-dark" id="monochrome-dark" name="monochrome-dark">Monochrome-Dark</option>
+                    <option value="monochrome-light" id="monochrome-light" name="monochrome-light">Monochrome-Light</option>
+                    <option value="analogic" id="analogic" name="analogic">Analogic</option>
+                    <option value="complement" id="complement" name="complement">Complement</option>
+                    <option value="analogic-complement" id="analogic-complement" name="analogic-complement">Analogic-complement</option>
+                    <option value="triad" id="triad" name="triad">Triad</option>
+                </select>
+                <button id="get-color">Get Color Schema</button>
+            </div>
+            <div id="color-columns">
+                <div id="color-1" class="color-single-columns"></div>
+                <div id="color-2" class="color-single-columns"></div>
+                <div id="color-3" class="color-single-columns"></div>
+                <div id="color-4" class="color-single-columns"></div>
+                <div id="color-5" class="color-single-columns"></div>
+            </div>
+            <div id="color-hexes">
+                <p id="color-1-text">#FF0000</p>
+                <p id="color-2-text">#98FB98</p>
+                <p id="color-3-text">#5B7C99</p>
+                <p id="color-4-text">#7F00FF</p>
+                <p id="color-5-text">#00FFFF</p>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html> 

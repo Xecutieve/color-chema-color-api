@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    color: white;
+}
+
+input[type="color"]{
+    width: 60px;
+    height: 40px;
+}
+
+select{
+    width: 310px;
+    height: 40px;
+}
+
+
+
+#selection-bar{
+    padding: 10px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+#color-selection {
+    text-align: start;
+    padding-left: 15px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #1F2937;
+    color: white;
+}
+
+#selection-bar > button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #3D4B60;
+    color: white;
+}
+
+#color-columns {
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#color-1{
+    background-color: #FF0000;
+}
+
+#color-2{
+    background-color: #98fb98;
+}
+
+#color-3{
+    background-color: #5B7C99;
+}
+
+#color-4{
+    background-color: #7F00FF;
+}
+
+#color-5{
+    background-color: #00FFFF;
+}
+
+#color-hexes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem;
+}
+
+.color-single-columns{
+    height: 410px;
+    width: 110px;
+}
