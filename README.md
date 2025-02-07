@@ -1,19 +1,7 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+This is a scrimba Color API project from APIs course.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+1-You select a color from color selector
+2.You select a color theme from the drop down menu
+3-Click the get color scheme button 
+4-The js code gets 5 colors using the selected color and color theme and changes the color columns and the color hex code texts
+![image](https://github.com/user-attachments/assets/ae9a94e8-d76a-40c2-9240-dcfa1435d05b)
